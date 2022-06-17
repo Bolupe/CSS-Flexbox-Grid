@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+main{
+    top: 170px;
+    left: 25%;
+    display:flex;
+    position: absolute;
+    flex-direction: row;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    width: 250px;
+    height: 400px;
+    margin: 0;
+    padding: 20px 20px 70px 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 250px;
+    height: 400px;
+    margin: 0;
+    padding: 20px 20px 70px 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.luxury {
+    background-color:  hsl(179, 100%, 13%);
+    width: 250px;
+    height: 400px;
+    margin: 0;
+    padding: 20px 20px 70px 40px;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+h1{
+    font-family:'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+    font-weight: 700px;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.65);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400px;
+    padding-bottom: 30px;
+}
+
+.button {
+  border-radius: 5px;  
+  font-weight: bold;
+  padding: 1em 2em;
+  border: 2px solid transparent;
+}
+button:hover {
+    background: none;
+
+}
+.sedans button{
+    background-color: white;
+    color:hsl(31, 77%, 52%);
+    padding: 10px 20px;
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.suvs button{
+    background-color: white;
+    color:hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.luxury button{
+    background-color: white;
+    color:  hsl(179, 100%, 13%);
+    padding: 10px 20px;
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
